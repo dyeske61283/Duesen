@@ -1,4 +1,4 @@
-4. Create a Blog Using Your Own Database Schema
+# Create a Blog Using Your Own Database Schema
 
 **Project premise**
 
@@ -18,3 +18,13 @@ While a blog may sound simple, it is a proper full stack project that can be tra
 - Database architecture
 - API creation using a back end technology
 - Increase in technical depth for chosen front end framework or library
+
+## Plannes Tech-Stack
+
+- Backend: ASP.NET Core (V 3.1)
+- Frontend: Vue with Vuetifiy
+- Database: ??? mySQL/Maria
+
+## Disclaimer
+
+This is (as of now at least) a purely personal project. Let's see where this is going. :)
