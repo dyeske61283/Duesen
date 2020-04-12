@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using Duesen.Models;
 
 namespace Duesen
 {
@@ -25,6 +27,8 @@ namespace Duesen
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<PostContext>(opt =>
+            opt.UseInMemoryDatabase("Posts"));
             services.AddControllers();
         }
 
@@ -35,6 +39,9 @@ namespace Duesen
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 
