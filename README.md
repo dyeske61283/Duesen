@@ -19,7 +19,7 @@ While a blog may sound simple, it is a proper full stack project that can be tra
 - API creation using a back end technology
 - Increase in technical depth for chosen front end framework or library
 
-## Plannes Tech-Stack
+## Planned Tech-Stack
 
 - Backend: ASP.NET Core (V 3.1)
 - Frontend: Vue with Vuetifiy
