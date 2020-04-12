@@ -22,7 +22,7 @@ While a blog may sound simple, it is a proper full stack project that can be tra
 ## Planned Tech-Stack
 
 - Backend: ASP.NET Core (V 3.1)
-- Frontend: Vue with Vuetifiy
+- Frontend: Vue with Vuetify
 - Database: ??? mySQL/Maria
 
 ## Disclaimer
